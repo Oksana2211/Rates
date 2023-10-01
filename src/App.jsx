@@ -4,6 +4,7 @@ import rates from './components/RatesCards/Rates.json'
 
 
 function App() {
+
   return (
     <div>
       <h1 className={style.header}>Карточки с тарифами</h1>
