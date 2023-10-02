@@ -5,7 +5,6 @@ import { useState } from "react";
 
 
 export default function Cards(props) {
-    // console.log(item.id);
 
     const [id, setId] = useState(0)
 

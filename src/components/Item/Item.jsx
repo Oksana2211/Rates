@@ -1,17 +1,17 @@
 import style from "./style.module.scss"
-import { useState } from "react";
+// import { useState } from "react";
 
 
-export default function Item(props, activeCards, setId) {
+export default function Item(props) {
 
     // const [classIt, setClassIt] = useState(false);
-    const classItem = activeCards ? 'style.card1' : null
+    const classItem = props.activeCards ? 'style.card1' : null
 
     // const handleChange = () => {
     //     setClassIt(!classIt);
     // }
     function handleActive() {
-        setId(props.item.id)
+        props.setId(props.item.id)
     }
 
     return (

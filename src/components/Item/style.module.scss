@@ -1,11 +1,10 @@
 .card {
     color: rgb(255, 255, 255);
-    width: 15vw;
+    max-width: 13vw;
 }
 
 .card1 {
-
-    width: 22vw;
+    transform: scale(1.2);
 }
 
 .name {
