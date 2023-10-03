@@ -1,3 +1,4 @@
+import React from "react"
 import RatesCards from "./components/RatesCards/RatesCards";
 import style from "./styles/index.scss"
 import rates from './components/RatesCards/Rates.json'
