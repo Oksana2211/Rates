@@ -1,16 +1,12 @@
 import React from "react"
 import style from "./style.module.scss"
-// import { useState } from "react";
 
 
 export default function Item(props) {
 
-    // const [classIt, setClassIt] = useState(false);
     const classItemActive = props.activeCards ? 'card1' : ""
     const classItem = 'card'
-    // const handleChange = () => {
-    //     setClassIt(!classIt);
-    // }
+
     function handleActive() {
         props.setId(props.item.id)
     }
